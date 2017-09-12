@@ -1,0 +1,47 @@
+#outer
+{
+    width: 80%;
+    min-height: 80vh;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(244,102,41); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(244,102,41,1) 0%, rgba(234,170,42,1) 45%, rgba(71,174,183,1) 70%, rgba(35,83,138,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(244,102,41,1) 0%,rgba(234,170,42,1) 45%,rgba(71,174,183,1) 70%,rgba(35,83,138,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(244,102,41,1) 0%,rgba(234,170,42,1) 45%,rgba(71,174,183,1) 70%,rgba(35,83,138,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f46629', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+    }
+
+#inner
+{
+    width: 50%;
+    margin: 10%;
+    color: #ffffff;
+    background: -moz-linear-gradient(left, rgba(5,2,0,0.5) 0%, rgba(5,2,0,0.75) 50%, rgba(71,174,183,0.85) 70%, rgba(35,83,138,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(5,2,0,0.5) 0%,rgba(5,2,0,0.75) 50%,rgba(71,174,183,0.85) 70%,rgba(35,83,138,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(5,2,0,0.5) 0%,rgba(5,2,0,0.75) 50%,rgba(71,174,183,0.85) 70%,rgba(35,83,138,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80050200', endColorstr='#23538a',GradientType=1 ); /* IE6-9 */
+}
+
+
+#smiling
+{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    background: url("/Users/shinegue/Documents/MyWebDevelopment2017/codingbootcamp/daily-course/12-09-2017/background-css-test/images/smiley.png");
+    background-size: 50 auto;
+    background-position: center center;
+}
+
+#nebula
+{
+    width: 100%;
+    color: white;
+    padding: 2em;
+    background:  url("/Users/shinegue/Documents/MyWebDevelopment2017/codingbootcamp/daily-course/12-09-2017/background-css-test/images/nebula.jpg")left top/cover fixed;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover; 
+    box-sizing: border-box;
+}

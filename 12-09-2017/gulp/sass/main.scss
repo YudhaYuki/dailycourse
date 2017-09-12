@@ -1,0 +1,14 @@
+$headline_color: orange;
+
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvita, sans-serif;
+}
+
+h1{
+    color: $headline_color;
+}
